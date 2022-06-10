@@ -24,7 +24,7 @@ struct Question {
             ),
             Question(
                 title: "What do you like more?",
-                type: .single,
+                type: .multiple,
                 answers: [
                     Answer(title: "Swim", animal: .dog),
                     Answer(title: "Sleep", animal: .cat),
@@ -34,7 +34,7 @@ struct Question {
             ),
             Question(
                 title: "Do you like car trips?",
-                type: .single,
+                type: .ranged,
                 answers: [
                     Answer(title: "I hate them", animal: .cat),
                     Answer(title: "I'm nervous", animal: .rabbit),
